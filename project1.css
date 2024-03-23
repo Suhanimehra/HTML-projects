@@ -1,0 +1,128 @@
+.profile-image{
+    height: 100px;
+    width: 100px;
+    border-radius: 60px;
+    padding: 3px;
+    border: 2px solid blue;
+    background-color: white;
+    position: relative;
+    top: 16px;
+}
+
+.id-card{
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+
+.box{
+    width: 250px;
+    height:300px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    position: absolute;
+    padding-bottom: -20px;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+}
+
+p{
+    color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: inherit;
+    height:inherit ;
+    border-bottom-left-radius:20px ;
+    border-bottom-right-radius:20px ;
+    padding-bottom: 10px;
+    position:static;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    margin-top:30px ;
+}
+
+.name{
+    font-size:18px;
+    margin-bottom: 4px;
+    font-weight: 300;
+}
+
+.work{
+    font-size: 12px;
+    font-weight:lighter;
+    color: rgb(121, 114, 114);
+
+}
+
+.icon{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 20px;
+    width:inherit;
+    border: none;
+}
+
+.icon-container{
+    display: flex;
+    justify-content: center;
+}
+
+.buttons{
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+    padding-block: 2px;
+    border-radius: 17px;
+    width: 100px;
+    height: 27px;
+    margin-bottom: 10px;
+}
+
+.bottom-icons{
+    height: 18px;
+    margin-left: 20px;
+    
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+
+    
+}
+
+.line{
+    padding-right: 10px;
+    border-right: 1px solid gray;
+    display: flex;
+    align-items: center;
+}
